@@ -113,8 +113,9 @@ height: 30px;
 /* main */
 .main {
     display: grid;
-    /* margin-top:150px; */
+    
     grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap:2em;
 }
 .main1, .main1, .main2 {
     
@@ -122,10 +123,11 @@ height: 30px;
     
     grid-template-columns: 1fr 1fr;
     
-    grid-gap: 2em;
+    grid-column-gap: 2em;
+    
     margin-left:40px;
     margin-right: 40px;
-    margin-bottom: 35px;
+    /* margin-bottom: 35px; */
    
 }
 
@@ -134,12 +136,7 @@ height: 30px;
 .box1, .box2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr) ;
-    grid-gap: 0.5em;
-    /* margin-top:20px */
-    /* grid-auto-rows: minmax(100px, auto); */
-   
-   
-    
+    grid-gap: 0.5em;    
 }
 
 .box11 img, .box21 img,.box12 img ,.box22 img ,.box13 img, .box23 img  {
